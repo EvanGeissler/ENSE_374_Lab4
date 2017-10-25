@@ -1,0 +1,4 @@
+class CorporateCustomer(){
+	String contactName;
+
+}

@@ -1,0 +1,4 @@
+class PersonalCustomer(){
+	int creditCardNumber;
+}
+
