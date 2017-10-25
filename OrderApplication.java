@@ -1,6 +1,11 @@
-class OrderApplication(){
-	boolean createOrder(Order order);
-	boolean importCatalogue();
+public class OrderApplication(){
+	public boolean createOrder(Order order){
+		return();
+	}
+
+	private boolean importCatalogue(){
+		return();
+	}
 
 }
 

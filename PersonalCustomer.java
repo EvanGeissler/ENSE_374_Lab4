@@ -1,4 +1,4 @@
-class PersonalCustomer(){
-	int creditCardNumber;
+public class PersonalCustomer(){
+	private int creditCardNumber;
 }
 

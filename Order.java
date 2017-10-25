@@ -3,7 +3,13 @@ public class Order(){
 	private double price;
 	private int orderID;
 
-	public Date getDateReceived();
-	public double calculatePrice();
+	public Date getDateReceived(){
+		return(dateReceived);
+	}
+
+	public double calculatePrice(){
+		return(price);
+	}
+
 }
 

@@ -1,10 +1,17 @@
-class Product(){
-	String name;
-	double price;
-	int productID; 
+purblic class Product(){
+	private String name;
+	private double price;
+	private int productID; 
 
-	String getName();
-	double getPrice();
-	int getProductID();
+	public String getName(){
+		return(name);
+	}
 
+	public double getPrice(){
+		return(price);
+	}
+
+	public int getProductID(){
+		return(prodcutID);
+	}
 }

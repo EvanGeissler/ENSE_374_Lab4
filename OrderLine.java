@@ -1,9 +1,20 @@
-class OrderLine(){
-	int quantity;
-	double price;
+public class OrderLine(){
+	private int quantity;
+	private double price;
 
-	void OrderLine(Product product, int quantity, double price);
-	Product getProduct();
-	int getQuantity();
-	double getPrice();
+	void OrderLine(Product product, int quantity, double price){
+		
+	}
+
+	public Product getProduct(){
+		return(product);
+	}
+
+	public int getQuantity(){
+		return(quantity);
+	}
+
+	public double getPrice(){
+		return(price);
+	}
 }
