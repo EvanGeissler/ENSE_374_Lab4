@@ -1,12 +1,23 @@
-class Customer(){
-	String name;
-	String address;
-	float creditRating;
-	float discountRating;
+public class Customer(){
+	private	String name;
+	private String address;
+	private float creditRating;
+	private float discountRating;
 
-	float getCreditRating();
-	String getName();
-	String getAddress();
-	float getDiscountRating();
+	public float getCreditRating(){
+		return(creditRating);
+	}
+	
+	public String getName(){
+		return(name);
+	}
+
+	public String getAddress(){
+		return(address);
+	}
+
+	public float getDiscountRating(){
+		return(discountRating);
+	}
 
 }

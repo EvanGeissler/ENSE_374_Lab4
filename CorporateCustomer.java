@@ -1,4 +1,4 @@
-class CorporateCustomer(){
-	String contactName;
+public class CorporateCustomer(){
+	private String contactName;
 
 }

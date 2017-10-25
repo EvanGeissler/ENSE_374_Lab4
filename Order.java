@@ -1,10 +1,9 @@
-class Order(){
-	Date dateReceived; 
-	double price;
-	int orderID;
+public class Order(){
+	private Date dateReceived; 
+	private double price;
+	private int orderID;
 
-	Date getDateReceived();
-	double calculatePrice();
-
+	public Date getDateReceived();
+	public double calculatePrice();
 }
 
