@@ -4,6 +4,22 @@ public class Customer(){
 	private float creditRating;
 	private float discountRating;
 
+	public void setCreditRating(float credit){
+		creditRating = credit;
+	}
+
+	public void setName(String name){
+		name = name1;
+	}
+
+	public void setAddress(String address){
+		address = address1;
+	}
+
+	public void setDiscount(float discount){
+		discountRating = discount;
+	}
+
 	public float getCreditRating(){
 		return(creditRating);
 	}
