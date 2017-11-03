@@ -22,7 +22,7 @@ public class userInput(){
 		//Delete item by setting everything to nul or 0, if linked list, delete node
 	}
 
-
+//
 }
 
 
